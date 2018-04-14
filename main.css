@@ -1,0 +1,105 @@
+
+@font-face {
+  font-family: 'funsized';
+  src: url('fonts/FunSized.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'luna';
+  src: url('fonts/Luna.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'meatloaf';
+  src: url('fonts/Meatloaf.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'blowbrush';
+  src: url('fonts/blowbrush.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neon';
+  src: url('fonts/Neon.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'wrestle';
+  src: url('fonts/WRESTLEMANIA.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fowler';
+  src: url('fonts/Fowler.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'jiggler';
+  src: url('fonts/budmo jiggler.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'moon-flower';
+  src: url('fonts/Moon Flower.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'third-rail';
+  src: url('fonts/Third Rail - Demo.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+}
+
+.content-wrapper {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F67280;
+}
+
+.audio-wrapper {
+   width: 50px;
+   height: 50px;
+   border-style: solid;
+}
+
+.main {
+  font-family: 'meatloaf';
+  font-size: 200px;
+  color: #F1F4F6;
+}
