@@ -10,15 +10,15 @@ $(document).ready(function(){
   ]
 
   var colors = [
-    "#F67280",
-    // "#C06C84",
-    // "#6C5B7B",
+    //"#F67280",
+    //"#C06C84",
+     //"#6C5B7B",
     // "#355C7D",
     // "#5AC8D8",
     // "#597FCA",
     // "#2552AC",
     // "#B0757C",
-    // "#085F63",
+     "#085F63",
     // "#40A798",
     // "#476268",
     // "#34374C",
@@ -27,35 +27,35 @@ $(document).ready(function(){
   ]
 
   arr = [
-    {time:4170.0, word:"When"},
+    {time:4120.0, word:"When"},
     {time:4460.0, word:"I"},
     {time:4640.0, word:"First"},
-    {time:5010.0, word:"Saw"},
-    {time:5360.0, word:"You", font: "jiggler", color: "#C06C84"},
+    {time:4810.0, word:"Saw"},
+    {time:5160.0, word:"You"}, //font: "jiggler", color: "#C06C84"},
     {time:8770.0, word:"I"},
-    {time:9140.0, word:"Saw"},
-    {time:9430.0, word:"LOVE", font: "wrestle", color: "#6C5B7B"},
-    {time:12330.0, word:"And"},
-    {time:12460.0, word:"The"},
+    {time:8940.0, word:"Saw"},
+    {time:9230.0, word:"LOVE"},// font: "wrestle", color: "#6C5B7B"},
+    {time:12130.0, word:"And"},
+    {time:12360.0, word:"The"},
     {time:12580.0, word:"First"},
-    {time:12860.0, word:"Time"},
-    {time:13220.0, word:"You"},
-    {time:13440.0, word:"TOUCHED", font: "neon"},
-    {time:13720.0, word:"ME", font: "jiggler", color: "#5AC8D8"},
+    {time:12700.0, word:"Time"},
+    {time:12970.0, word:"You"},
+    {time:13200.0, word:"TOUCHED"},// font: "neon"},
+    {time:13520.0, word:"ME"},// font: "jiggler", color: "#5AC8D8"},
     {time:15980.0, word:"I"},
     {time:16320.0, word:"Felt"},
-    {time:16670.0, word:"LOVE", font: "moon-flower", color: "#355C7D"},
+    {time:16670.0, word:"LOVE"},// font: "moon-flower", color: "#355C7D"},
     {time:18960.0, word:"And"},
     {time:19180.0, word:"After"},
     {time:19370.0, word:"All"},
     {time:19610.0, word:"This"},
-    {time:19880.0, word:"TIME", font: "fowler", color: "#2552AC"},
+    {time:19880.0, word:"TIME"},// font: "fowler", color: "#2552AC"},
     {time:22460.0, word:"You're"},
     {time:22840.0, word:"Still"},
     {time:23140.0, word:"The"},
     {time:23440.0, word:"One"},
     {time:23600.0, word:"I"},
-    {time:23860.0, word:"Love", font: "third-rail", color: "#B0757C"},
+    {time:23760.0, word:"Love"},// font: "third-rail", color: "#B0757C"},
     {time:26060.0, word:""},
     {time:29490.0, word:"Looks"},
     {time:29920.0, word:"like"},
@@ -80,7 +80,8 @@ $(document).ready(function(){
     {time:41120.0, word:"we'd"},
     {time:41310.0, word:"get"},
     {time:41810.0, word:"there"},
-    {time:42190.0, word:"someday", font: "blowbrush" },
+    {time:42190.0, word:"someday"},
+    //{time:42290.0, word:"someday"},// font: "blowbrush" },
     {time:43750.0, word:"They"},
     {time:44150.0, word:"said"},
     {time:45380.0, word:"I"},
@@ -306,6 +307,7 @@ $(document).ready(function(){
   }
 
   $('.audio-wrapper').click(function() {
+    $('.audio-wrapper').addClass("upper-left");
     audio = $('#audio-controls')[0];
 
     if (audio.paused == false) {
@@ -333,7 +335,7 @@ $(document).ready(function(){
             }
           }, element.time);
         });
-        $('.audio-wrapper').hide();
+        //$('.audio-wrapper').hide();
         start = false;
       } else {
         timers.forEach(function(element) {

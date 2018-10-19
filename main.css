@@ -82,6 +82,15 @@ body {
   margin: 0;
 }
 
+.upper-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 80px;
+  padding-top: 15px;
+}
+
 .content-wrapper {
   width: inherit;
   height: inherit;
@@ -89,13 +98,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F67280;
-}
-
-.audio-wrapper {
-   width: 50px;
-   height: 50px;
-   border-style: solid;
+  background-color: #085F63;
 }
 
 .main {
